@@ -1,0 +1,6 @@
+name: chili_flutter_storage
+description: Abstract class of key value storage.
+version: 0.0.1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
