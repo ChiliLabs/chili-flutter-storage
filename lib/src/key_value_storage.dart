@@ -16,4 +16,8 @@ abstract class KeyValueStorage {
   Future<Set<String>> getKeys();
 
   Future<void> clearAll();
+
+  Future<void> setDouble(String key, double value);
+
+  Future<Map<String, String>> readAll();
 }
